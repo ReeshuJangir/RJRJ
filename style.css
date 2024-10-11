@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #007BFF, #00BFFF);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+header img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.details, .registration {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.register-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.register-btn:hover {
+    background: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
